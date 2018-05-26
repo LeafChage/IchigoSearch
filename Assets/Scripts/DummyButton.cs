@@ -24,10 +24,6 @@ namespace LeafChage
                  0);
         }
 
-        void Update()
-        {
-        }
-
         // buttonを押した時
         private void buttonClicked()
         {

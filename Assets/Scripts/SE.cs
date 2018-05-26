@@ -6,13 +6,13 @@ namespace LeafChage
 {
     public class SE : MonoBehaviour
     {
-        [SerializeField] private AudioClip audioClip;
+        [SerializeField] private AudioSource audioSource;
 
         float time = 0;
         void Update()
         {
             this.time = Time.deltaTime;
-            if (time > this.audioClip.length)
+            if (!this.audioSource.isPlaying)
             {
                 Destroy(this.gameObject);
                 Destroy(this);
