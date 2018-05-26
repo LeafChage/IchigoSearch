@@ -14,7 +14,7 @@ namespace LeafChage
         [SerializeField] private Text text;
 		[SerializeField] private Text timeText;
 		[SerializeField] private GameObject byebye;
-        const int dummyCount = 1000;
+        const int dummyCount = 500;
 		private bool isFinished = false;
 
         void Start()
