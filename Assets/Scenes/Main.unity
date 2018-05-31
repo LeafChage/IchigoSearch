@@ -224,7 +224,6 @@ MonoBehaviour:
   ichigoChan: {fileID: 1325439560}
   ichigoDummys:
   - {fileID: 1383150545280224, guid: 30874d3491d0c42df9ee9aa38a5448df, type: 2}
-  - {fileID: 1081351187360184, guid: 6fad9586ae89e43f49b6951c8bc1809d, type: 2}
   text: {fileID: 1243159260}
   timeText: {fileID: 1097432294}
   byebye: {fileID: 1128999223393194, guid: 954c1d66fb9d44d97bb4f2cd2bb82d33, type: 2}
