@@ -53,6 +53,7 @@ namespace LeafChage
         {
             this.isFinished = true;
             this.text.gameObject.SetActive(true);
+            this.text.gameObject.transform.SetAsLastSibling();
             this.text.text = "ありがとぉぉぉ";
             StartCoroutine("toTitleScene");
         }
